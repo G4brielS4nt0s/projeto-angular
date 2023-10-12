@@ -1,0 +1,31 @@
+@media screen and (max-width: 900px)
+{.container__big-card {
+  width: 300px;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.big-card__title > h1 {
+  margin-top: 13px;
+  font-size: 22px;
+}
+
+.big-card__descriptio{
+  margin-top: 20px;
+}
+
+.big-card__descriptio > p > a {
+  color: grey;
+}
+
+  .big-card__photo > img {
+    width: 100%;
+    min-width: 200px;
+  }
+}
